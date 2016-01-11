@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,300italic);
+
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+.q0-9 { fill:rgb(247,251,255); }
+.q1-9 { fill:rgb(222,235,247); }
+.q2-9 { fill:rgb(198,219,239); }
+.q3-9 { fill:rgb(158,202,225); }
+.q4-9 { fill:rgb(107,174,214); }
+.q5-9 { fill:rgb(66,146,198); }
+.q6-9 { fill:rgb(33,113,181); }
+.q7-9 { fill:rgb(8,81,156); }
+.q8-9 { fill:rgb(8,48,107); }
+
+body{
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+}
+
+h1{
+  font-size: 46px;
+}
+
+p{
+  font-size: 21px;
+}
+
+table.data{
+  min-width: 75%;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+}
+
+table.data td, table.data th{
+  border-bottom: thin solid #e6e6e6;
+  padding: 7px 4px;
+}
+
+table.data th{
+  border-bottom: 2px solid #777;
+}
+
+table.data th:first-child, table.data td:first-child{
+  text-align: left;
+}
+
+table.data th:last-child, table.data td:last-child{
+  text-align: right;
+  border-left: thin solid #e8e8e8;
+}
