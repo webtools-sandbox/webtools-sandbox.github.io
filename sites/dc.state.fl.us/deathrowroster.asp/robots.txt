@@ -1,0 +1,20 @@
+# robots.txt for DC Web site
+
+User-agent: *
+disallow: /ada/
+disallow: /myflorida/
+disallow: /search/
+disallow: /ActiveInmates/
+disallow: /Absconder/
+disallow: /ActiveOffenders/
+disallow: /AppCommon/
+disallow: /EscapedInmates/
+disallow: /InmateInfo/
+disallow: /InmateReleases/
+disallow: /SupervisedReleases/
+
+sitemap: http://www.dc.state.fl.us/sitemaps/site1.xml
+
+
+
+

@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+.DCNum {/* used to format DC Number in Offender Search Applications to ensure readability */
+	font-family: 'courier new', courier, monospace;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-size : larger; 
+	}
+
+.dcCSStableMedium td, .dcCSStableMedium th, table.dcCSStableMedium  {
+	border: none;
+	background-color: #ffffff;
+}
+table.dcCSStableMedium  {
+	margin: 0px;
+	padding: 0px;
+}
+.h4 {
+
+	font-size: 1.3em;
+	font-style: italic;
+	color: #669966;
+	background-color:#F1F1F1;
+	padding:5px 10px 5px 5px;
+	border-left:#959595 3px solid;
+	display:block;
+}
+h1 {
+	padding: 9px 0px 0px 0px;
+	margin: 0px;
+}
+form {
+	width: 96%;
+
+}
+/* used to style the notes provided at the bottom of each search page */
+.dcCSSSearchNotes {
+	background-color:#faf3dc;
+	border-style: solid;
+	border-width:1px;
+	margin:10px 0px 10px 0px;
+	padding:5px;
+}
+
+/* the following is used to accent special messages -- such as sex offender alerts */
+.dcCSSSpecialNotes {
+	padding:5px;
+	color: #C0493F;
+	background-color: #FAF3DC;
+	border:silver 1px solid;
+	line-height:1.3em;
+}
+.dcCSSSpecialNotes a {
+	color: #0033FF;
+}
+/* used to style the header of the Escape detail page */
+.dcCSSEscapes {
+	text-align: center;
+}
+.dcCSSEscapes h2 {
+	font-size: 2.2em;
+	color: #0000ff;
+	border: none;
+	font-style:normal;
+}
+.dcCSSEscapes b {
+	color: #FF0033;
+	font-size: 1.3em;	
+}
+
