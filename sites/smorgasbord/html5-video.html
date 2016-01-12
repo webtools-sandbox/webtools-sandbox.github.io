@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>His Girl Friday - YouTube embed</title>
+    <style>
+        body{
+            font-size: 18px;
+            width: 850px;
+            margin: 10px auto;
+            font-family: "Helvetica Neue", "Arial", sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<h1>His Girl Friday; self-hosted</h1>
+
+<p>Videos don't always have to be hosted on YouTube or another third-party service. They can be uploaded on to our own webspace and served up just as if they were (really big) images:</p>
+
+<video controls style="width:720px; height:480px;" poster="./media/images/his-girl-friday-html5-video-poster.jpg" preload="metadata">
+  <source src="./media/video/his-girl-friday-first-scene.webm"
+          type='video/webm;codecs="vp8, vorbis"'/>
+  <source src="./media/video/his-girl-friday-first-scene.mp4"
+          type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'/>
+</video>
+
+
+<p>The video comes <a href="https://archive.org/details/his_girl_friday">from the Internet Archive</a>. The `&lt;video&gt;` code snippet comes from this <a href="http://www.html5rocks.com/en/tutorials/video/basics/">HTML5Rocks tutorial</a>.
+</p>
+
+
+
+<p>Notice how no other files get loaded into the browser, except the first chunk of the movie file (which contains metadata, such as how long it is), and the "poster" image that is used as an overlay over the video area. This is a huge contrast to the barrage of scripts and snippets your browser loads when viewing a <a href="./youtube-embed.html">YouTube embed</a>. On the other hand, we lose all of the cool YouTube features, such as being able to jump into the middle of the excerpt -- we can only watch as much as we've downloaded.
+</p>
+
+
+
+
+</body>
+</html>
+
+
+
